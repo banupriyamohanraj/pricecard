@@ -14,7 +14,7 @@ export default function Card(props) {
           <ul className="fa-ul">
 
             {props.data.offers.map((obj) => {
-              return <li className={obj.isEnabled ? "" : "text-muted"}><span className="fa-li"><i className={`fas ${obj.isEnabled ? "fa-check" : "fa-times"}`}></i></span>{obj.name}</li>
+              return <li className={obj.isEnabled ? ""  : "text-muted"}><span className="fa-li"><i className={`fas ${obj.isEnabled ? "fa-check" : "fa-times"}`}></i></span>{obj.name}</li>
             })
             }
 
